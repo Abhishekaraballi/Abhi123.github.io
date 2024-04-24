@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+    <form action="message.html">
+
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label for="name">Name</label>
+            <input type="text" id="name" required><br><br>
+            <label for="date">DOB</label>
+            <input type="date" id="date" required><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Educational Details</legend>
+            <label>Department</label><br>
+            <input type="radio" name="dept" id="cs">
+            <label id="cs">CS</label>
+            <input type="radio" name="dept" id="ec">
+            <label id="ec">EC</label>
+            <input type="radio" name="dept" id="civil">
+            <label id="civil">CIVIL</label>
+            <input type="radio" name="dept" id="mech">
+            <label id="mech">MECH</label><br><br>
+
+            <label id="year">Year of Graduation</label>
+            <select id="year">
+                <option>2022</option>
+                <option>2023</option>
+                <option>2024</option>
+            </select><br><br>
+
+            <label>Skills</label><br>
+            <input type="checkbox">
+            <label>HTML</label><br>
+            <input type="checkbox">
+            <label>CSS</label><br>
+            <input type="checkbox">
+            <label>JavaScript</label><br><br>
+            </fieldset>
+
+        <input type="submit" value="Login">
+    </form>
+    
+</body>
+</html>
